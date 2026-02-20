@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/space4"
+    android:layout_marginTop="@dimen/space1"
+    android:layout_marginEnd="@dimen/space2"
+    android:layout_marginBottom="@dimen/space1"
+    app:cardBackgroundColor="@color/accent_primary"
+    app:cardCornerRadius="@dimen/space3"
+    app:cardElevation="@dimen/elevation_low">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space3"
+        android:maxWidth="280dp">
+
+        <TextView
+            android:id="@+id/tvMessageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_body"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Hello, is this product still available?" />
+
+        <TextView
+            android:id="@+id/tvMessageTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            android:alpha="0.8"
+            app:layout_constraintBottom_toBottomOf="@id/tvMessageText"
+            app:layout_constraintStart_toEndOf="@id/tvMessageText"
+            tools:text="10:30 AM" />
+
+        <ImageView
+            android:id="@+id/ivMessageRead"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="@dimen/space1"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/tvMessageTime"
+            app:layout_constraintStart_toEndOf="@id/tvMessageTime"
+            app:layout_constraintTop_toTopOf="@id/tvMessageTime"
+            app:srcCompat="@android:drawable/presence_online"
+            app:tint="@color/white"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

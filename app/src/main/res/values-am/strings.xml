@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">ኢትዮሾፕ</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">መነሻ</string>
+    <string name="nav_search">ፈልጎ መጠየቅ</string>
+    <string name="nav_cart">ጋሪ</string>
+    <string name="nav_orders">ትዕዛዞች</string>
+    <string name="nav_profile">መገለጫ</string>
+    <string name="nav_chat">መልእክት</string>
+    
+    <!-- Auth -->
+    <string name="login">መግቢያ</string>
+    <string name="signup">መዝገብ</string>
+    <string name="logout">ውጣ</string>
+    <string name="email">ኢሜይል</string>
+    <string name="password">የይለፍ ቃል</string>
+    <string name="confirm_password">የይለፍ ቃል ያረጋግጡ</string>
+    <string name="forgot_password">የይለፍ ቃል ረሱት?</string>
+    <string name="reset_password">የይለፍ ቃል ያስተካክሉ</string>
+    <string name="phone">ስልክ ቁጥር</string>
+    <string name="send_otp">OTP ላክ</string>
+    <string name="verify_otp">OTP ያረጋግጡ</string>
+    <string name="continue_with_google">በጉግል ይቀጥሩ</string>
+    <string name="dont_have_account">መለያ የሎትም?</string>
+    <string name="already_have_account">መለያ አሎት?</string>
+    
+    <!-- User Roles -->
+    <string name="role_buyer">ገዢ</string>
+    <string name="role_seller">ሻጭ</string>
+    <string name="role_admin">አስተዳዳሪ</string>
+    
+    <!-- Products -->
+    <string name="products">ምርቶች</string>
+    <string name="product_title">የምርት ርዕስ</string>
+    <string name="product_description">መግለጫ</string>
+    <string name="product_price">ዋጋ</string>
+    <string name="product_condition">ሁኔታ</string>
+    <string name="condition_new">አዲስ</string>
+    <string name="condition_like_new">አዲስ የሚመስል</string>
+    <string name="condition_used">የተጠቀመ</string>
+    <string name="category">ምድብ</string>
+    <string name="location">አካባቢ</string>
+    <string name="search">ፈልጎ መጠየቅ</string>
+    <string name="search_products">ምርቶችን ፈልግ…</string>
+    <string name="filter">አጣራ</string>
+    <string name="sort">አደራደር</string>
+    <string name="add_product">ምርት ጨምር</string>
+    <string name="edit_product">ምርት አርትዕ</string>
+    <string name="delete_product">ምርት አጥፉ</string>
+    <string name="contact_seller">ሻጩን ያግኙ</string>
+    <string name="verified_seller">የተረጋጋ ሻጭ</string>
+    
+    <!-- Cart -->
+    <string name="cart">ጋሪ</string>
+    <string name="add_to_cart">ወደ ጋሪ ጨምር</string>
+    <string name="remove_from_cart">ከጋሪ አጥፉ</string>
+    <string name="cart_empty">ጋሪዎ ባዶ ነው</string>
+    <string name="checkout">ይመልከቱ</string>
+    
+    <!-- Checkout & Payment -->
+    <string name="checkout_title">ይመልከቱ</string>
+    <string name="delivery_address">የክፍያ አድራሻ</string>
+    <string name="delivery_method">የማቅረብ መንገድ</string>
+    <string name="pickup">ማስረክብ</string>
+    <string name="shipping">መላክ</string>
+    <string name="total">ጠቅላላ</string>
+    <string name="subtotal">ንዑስ ድምር</string>
+    <string name="shipping_cost">የመላክ ዋጋ</string>
+    <string name="payment_method">የክፍያ ዘዴ</string>
+    <string name="pay_with_chapa">በቻፓ ክፍል</string>
+    <string name="processing_payment">ክፍያ በማካሄድ ላይ…</string>
+    <string name="payment_success">ክፍያ ተሳክቷል!</string>
+    <string name="payment_failed">ክፍያ አልተሳካም</string>
+    <string name="payment_pending">ክፍያ በመጠባበቅ ላይ</string>
+    
+    <!-- Orders -->
+    <string name="orders">የኔ ትዕዛዞች</string>
+    <string name="order_id">የትዕዛዝ ID</string>
+    <string name="order_status">ሁኔታ</string>
+    <string name="status_pending">በመጠባበቅ ላይ</string>
+    <string name="status_confirmed">ተረጋግጧል</string>
+    <string name="status_shipped">ተልኳል</string>
+    <string name="status_delivered">ተረክቧል</string>
+    <string name="status_cancelled">ተሰርዟል</string>
+    <string name="order_details">የትዕዛዝ ዝርዝሮች</string>
+    <string name="track_order">ትዕዛዝ ከተረከ</string>
+    
+    <!-- Reviews -->
+    <string name="reviews">ግምገማዎች</string>
+    <string name="write_review">ግምገማ ይጻፉ</string>
+    <string name="your_review">የእርስዎ ግምገማ</string>
+    <string name="submit_review">ግምገማ አስገባ</string>
+    <string name="rating">ደረጃ</string>
+    
+    <!-- Chat -->
+    <string name="chat">መልእክት</string>
+    <string name="message">መልእክት</string>
+    <string name="type_message">መልእክት ይጻፉ…</string>
+    <string name="send">ላክ</string>
+    
+    <!-- Profile -->
+    <string name="profile">መገለጫ</string>
+    <string name="name">ስም</string>
+    <string name="edit_profile">መገለጫ አርትዕ</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="language">ቋንቋ</string>
+    <string name="notifications">ማስታወቂያዎች</string>
+    <string name="help">እርዳታ</string>
+    <string name="about">ስለ</string>
+    <string name="privacy_policy">የግላዊነት ፖሊሲ</string>
+    <string name="terms_of_service">የአገልግሎት ውል</string>
+    
+    <!-- Seller Dashboard -->
+    <string name="seller_dashboard">የሻጭ ዳሽቦርድ</string>
+    <string name="my_products">የኔ ምርቶች</string>
+    <string name="my_orders">የኔ ትዕዛዞች</string>
+    <string name="sales">ሽያጮች</string>
+    <string name="earnings">ገቢዎች</string>
+    <string name="verification">ማረጋገጫ</string>
+    <string name="verify_as_seller">እንደ ሻጭ ያረጋግጡ</string>
+    <string name="business_name">የንግድ ስም</string>
+    <string name="business_address">የንግድ አድራሻ</string>
+    <string name="upload_documents">ሰነዶችን ያስቀምጡ</string>
+    <string name="verification_status">የማረጋገጫ ሁኔታ</string>
+    <string name="verification_pending">በመጠባበቅ ላይ</string>
+    <string name="verification_approved">ተፈቅዷል</string>
+    <string name="verification_rejected">ተከልክሏል</string>
+    
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard">የአስተዳዳሪ ዳሽቦርድ</string>
+    <string name="user_management">የተጠቃሚ አስተዳደር</string>
+    <string name="product_moderation">የምርት ትንታኔ</string>
+    <string name="order_management">የትዕዛዝ አስተዳደር</string>
+    <string name="analytics">ትንታኔ</string>
+    <string name="approve">ፍቀድ</string>
+    <string name="reject">ከልክል</string>
+    
+    <!-- Common -->
+    <string name="save">አስቀምጥ</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="delete">አጥፉ</string>
+    <string name="edit">አርትዕ</string>
+    <string name="yes">አዎ</string>
+    <string name="no">የለም</string>
+    <string name="ok">እሺ</string>
+    <string name="loading">በመጫን ላይ…</string>
+    <string name="error">ስህተት</string>
+    <string name="success">ስኬት</string>
+    <string name="retry">እንደገና ይሞክሩ</string>
+    <string name="no_internet">የኢንተርኔት ግንኙነት የለም</string>
+    <string name="try_again">እባክዎ እንደገና ይሞክሩ</string>
+    <string name="something_went_wrong">ስህተት ተፈጥሯል</string>
+    
+    <!-- Currency -->
+    <string name="currency">ብር</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_message">አዲስ መልእክት</string>
+    <string name="notification_order_update">የትዕዛዝ ዝማኔ</string>
+    <string name="notification_payment_received">ክፍያ ተቀብሏል</string>
+    <string name="notification_product_sold">ምርት ተሽጧል</string>
+    
+    <!-- Images -->
+    <string name="select_image">ምስል ይምረጡ</string>
+    <string name="take_photo">ፎቶ ይውሰዱ</string>
+    <string name="choose_from_gallery">ከጋለሪ ይምረጡ</string>
+    <string name="max_images_reached">ከፍተኛ 5 ምስሎች ይፈቀዳሉ</string>
+    
+    <!-- Validation -->
+    <string name="error_empty_field">ይህ መስክ ግዴታ ነው</string>
+    <string name="error_invalid_email">ልክ ያልሆነ ኢሜይል አድራሻ</string>
+    <string name="error_invalid_phone">ልክ ያልሆነ ስልክ ቁጥር</string>
+    <string name="error_password_too_short">የይለፍ ቃል ቢያንስ 6 ፊደላት መሆን አለበት</string>
+    <string name="error_password_mismatch">የይለፍ ቃሎች አይዛመዱም</string>
+    <string name="error_invalid_price">ልክ ያልሆነ ዋጋ</string>
+</resources>

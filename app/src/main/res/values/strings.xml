@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">EthioShop</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_chat">Chat</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    
+    <!-- User Roles -->
+    <string name="role_buyer">Buyer</string>
+    <string name="role_seller">Seller</string>
+    <string name="role_admin">Admin</string>
+    
+    <!-- Products -->
+    <string name="products">Products</string>
+    <string name="product_title">Product Title</string>
+    <string name="product_description">Description</string>
+    <string name="product_price">Price</string>
+    <string name="product_condition">Condition</string>
+    <string name="condition_new">New</string>
+    <string name="condition_like_new">Like New</string>
+    <string name="condition_used">Used</string>
+    <string name="category">Category</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+    <string name="search_products">Search products…</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="add_product">Add Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="contact_seller">Contact Seller</string>
+    <string name="verified_seller">Verified Seller</string>
+    
+    <!-- Cart -->
+    <string name="cart">Cart</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="remove_from_cart">Remove from Cart</string>
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="checkout">Checkout</string>
+    
+    <!-- Checkout & Payment -->
+    <string name="checkout_title">Checkout</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="delivery_method">Delivery Method</string>
+    <string name="pickup">Pickup</string>
+    <string name="shipping">Shipping</string>
+    <string name="total">Total</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="shipping_cost">Shipping Cost</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="pay_with_chapa">Pay with Chapa</string>
+    <string name="processing_payment">Processing payment…</string>
+    <string name="payment_success">Payment Successful!</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="payment_pending">Payment Pending</string>
+    
+    <!-- Orders -->
+    <string name="orders">My Orders</string>
+    <string name="order_id">Order ID</string>
+    <string name="order_status">Status</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_shipped">Shipped</string>
+    <string name="status_delivered">Delivered</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="order_details">Order Details</string>
+    <string name="track_order">Track Order</string>
+    
+    <!-- Reviews -->
+    <string name="reviews">Reviews</string>
+    <string name="write_review">Write a Review</string>
+    <string name="your_review">Your Review</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="rating">Rating</string>
+    
+    <!-- Chat -->
+    <string name="chat">Chat</string>
+    <string name="message">Message</string>
+    <string name="type_message">Type a message…</string>
+    <string name="send">Send</string>
+    
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    
+    <!-- Seller Dashboard -->
+    <string name="seller_dashboard">Seller Dashboard</string>
+    <string name="my_products">My Products</string>
+    <string name="my_orders">My Orders</string>
+    <string name="sales">Sales</string>
+    <string name="earnings">Earnings</string>
+    <string name="verification">Verification</string>
+    <string name="verify_as_seller">Verify as Seller</string>
+    <string name="business_name">Business Name</string>
+    <string name="business_address">Business Address</string>
+    <string name="upload_documents">Upload Documents</string>
+    <string name="verification_status">Verification Status</string>
+    <string name="verification_pending">Pending</string>
+    <string name="verification_approved">Approved</string>
+    <string name="verification_rejected">Rejected</string>
+    
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="user_management">User Management</string>
+    <string name="product_moderation">Product Moderation</string>
+    <string name="order_management">Order Management</string>
+    <string name="analytics">Analytics</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="try_again">Please try again</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    
+    <!-- Currency -->
+    <string name="currency">ETB</string>
+    
+    <!-- Notifications -->
+    <string name="notification_new_message">New Message</string>
+    <string name="notification_order_update">Order Update</string>
+    <string name="notification_payment_received">Payment Received</string>
+    <string name="notification_product_sold">Product Sold</string>
+    
+    <!-- Images -->
+    <string name="select_image">Select Image</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="max_images_reached">Maximum 5 images allowed</string>
+    
+    <!-- Validation -->
+    <string name="error_empty_field">This field is required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_phone">Invalid phone number</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_invalid_price">Invalid price</string>
+</resources><string name="full_name">Full Name</string>
+<string name="passwords_do_not_match">Passwords do not match</string>
+<string name="order_items">Order Items</string>
+<string name="city">City</string>
+<string name="subcity">Subcity</string>
+<string name="order_summary">Order Summary</string>
+<string name="proceed_to_payment">Proceed to Payment</string>
+<string name="payment_status">Payment Status</string>
+<string name="back">Back</string>
+<string name="type_a_message">Type a message...</string>
+<string name="total_orders">Total Orders</string>
+<string name="total_revenue">Total Revenue</string>
+<string name="recent_orders">Recent Orders</string>
+<string name="total_users">Total Users</string>
+<string name="total_products">Total Products</string>
+<string name="admin_actions">Admin Actions</string>
+<string name="manage_users">Manage Users</string>
+<string name="manage_products">Manage Products</string>
+<string name="view_reports">View Reports</string>
+<string name="system_settings">System Settings</string>

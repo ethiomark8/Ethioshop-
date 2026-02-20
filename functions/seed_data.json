@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "icon": "devices",
+      "subcategories": ["Phones", "Laptops", "Tablets", "Accessories"]
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "icon": "checkroom",
+      "subcategories": ["Men", "Women", "Kids", "Shoes"]
+    },
+    {
+      "id": "home_garden",
+      "name": "Home & Garden",
+      "icon": "home",
+      "subcategories": ["Furniture", "Decor", "Kitchen", "Garden"]
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "icon": "menu_book",
+      "subcategories": ["Fiction", "Non-Fiction", "Educational", "Children"]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "icon": "sports_soccer",
+      "subcategories": ["Equipment", "Clothing", "Accessories"]
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty",
+      "icon": "spa",
+      "subcategories": ["Skincare", "Makeup", "Haircare", "Fragrance"]
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive",
+      "icon": "directions_car",
+      "subcategories": ["Parts", "Accessories", "Tools"]
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "icon": "medical_services",
+      "subcategories": ["Supplements", "Equipment", "Personal Care"]
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "icon": "restaurant",
+      "subcategories": ["Groceries", "Snacks", "Beverages"]
+    },
+    {
+      "id": "services",
+      "name": "Services",
+      "icon": "construction",
+      "subcategories": ["Repair", "Cleaning", "Installation"]
+    }
+  ],
+  "locations": [
+    "Addis Ababa, Bole",
+    "Addis Ababa, Kazanchis",
+    "Addis Ababa, Piassa",
+    "Addis Ababa, Megenagna",
+    "Dire Dawa",
+    "Mekelle",
+    "Gondar",
+    "Bahir Dar",
+    "Hawassa",
+    "Jimma"
+  ],
+  "sample_products": [
+    {
+      "title": "Samsung Galaxy S22",
+      "description": "Brand new Samsung Galaxy S22 with 128GB storage, 8GB RAM. Includes original charger and box. International version, works with all carriers in Ethiopia.",
+      "category": "Electronics",
+      "priceETB": 45000,
+      "condition": "new",
+      "location": "Addis Ababa, Bole"
+    },
+    {
+      "title": "Men's Casual Shirt",
+      "description": "Premium cotton casual shirt, size L. Available in multiple colors. Perfect for everyday wear.",
+      "category": "Clothing",
+      "priceETB": 1200,
+      "condition": "new",
+      "location": "Addis Ababa, Megenagna"
+    },
+    {
+      "title": "Wooden Coffee Table",
+      "description": "Handcrafted wooden coffee table. Made from local timber, sustainable and durable. Dimensions: 120x60x45cm.",
+      "category": "Home & Garden",
+      "priceETB": 8500,
+      "condition": "like new",
+      "location": "Dire Dawa"
+    },
+    {
+      "title": "Amharic Learning Book",
+      "description": "Complete Amharic learning guide for beginners. Includes pronunciation guide, grammar rules, and practice exercises.",
+      "category": "Books",
+      "priceETB": 350,
+      "condition": "new",
+      "location": "Addis Ababa, Piassa"
+    },
+    {
+      "title": "Soccer Ball - Professional",
+      "description": "FIFA-approved professional soccer ball. Size 5. Perfect for training and matches.",
+      "category": "Sports",
+      "priceETB": 1800,
+      "condition": "new",
+      "location": "Bahir Dar"
+    }
+  ]
+}

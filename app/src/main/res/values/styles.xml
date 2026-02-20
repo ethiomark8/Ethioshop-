@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme -->
+    <style name="Theme.EthioShop" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryDark">@color/background</item>
+        <item name="colorAccent">@color/accent_primary</item>
+        <item name="colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnPrimary">@color/primary_text</item>
+        <item name="colorOnBackground">@color/primary_text</item>
+        <item name="colorOnSurface">@color/primary_text</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="SplashTheme" parent="Theme.EthioShop">
+        <item name="android:windowBackground">@color/splash</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Typography -->
+    <style name="TextAppearance.EthioShop.H1" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/text_h1</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.EthioShop.H2" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/text_h2</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.EthioShop.H3" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">@dimen/text_h3</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.EthioShop.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="TextAppearance.EthioShop.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <style name="TextAppearance.EthioShop.Small" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/disabled</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_primary</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/card_corner</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/accent_primary</item>
+        <item name="android:textColor">@color/accent_primary</item>
+        <item name="cornerRadius">@dimen/card_corner</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+
+    <style name="Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/accent_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Input Fields -->
+    <style name="TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/accent_primary</item>
+        <item name="hintTextColor">@color/accent_primary</item>
+        <item name="boxStrokeWidth">@dimen/stroke_medium</item>
+        <item name="boxCornerRadiusTopStart">@dimen/card_corner</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/card_corner</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/card_corner</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/card_corner</item>
+        <item name="android:textColorHint">@color/disabled</item>
+    </style>
+
+    <style name="TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_body</item>
+    </style>
+
+    <!-- Cards -->
+    <style name="CardView.EthioShop" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardElevation">@dimen/elevation_medium</item>
+        <item name="contentPadding">@dimen/padding_standard</item>
+    </style>
+
+    <style name="CardView.EthioShop.Product" parent="CardView.EthioShop">
+        <item name="cardCornerRadius">@dimen/card_corner_large</item>
+    </style>
+
+    <!-- Status Badges -->
+    <style name="Badge.Pending" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/status_pending</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Badge.Confirmed" parent="Badge.Pending">
+        <item name="backgroundTint">@color/status_confirmed</item>
+    </style>
+
+    <style name="Badge.Shipped" parent="Badge.Pending">
+        <item name="backgroundTint">@color/status_shipped</item>
+    </style>
+
+    <style name="Badge.Delivered" parent="Badge.Pending">
+        <item name="backgroundTint">@color/status_delivered</item>
+    </style>
+
+    <style name="Badge.Cancelled" parent="Badge.Pending">
+        <item name="backgroundTint">@color/status_cancelled</item>
+    </style>
+
+    <!-- Chip -->
+    <style name="Chip.Filter" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/surface</item>
+        <item name="chipStrokeColor">@color/accent_primary</item>
+        <item name="chipStrokeWidth">@dimen/stroke_thin</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <!-- Bottom Navigation -->
+    <style name="BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+        <item name="itemBackground">@color/background</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Toolbar.EthioShop" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">@color/primary_text</item>
+        <item name="subtitleTextColor">@color/disabled</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:elevation">@dimen/elevation_medium</item>
+    </style>
+
+    <!-- Divider -->
+    <style name="Divider" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/stroke_thin</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- Progress Bar -->
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/accent_primary</item>
+    </style>
+
+    <!-- Snackbar -->
+    <style name="Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/surface</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+</resources>
