@@ -1,0 +1,62 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    function isAdmin() {
+      return isSignedIn() && 
+             firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    function isVerifiedSeller() {
+      return isSignedIn() && 
+             firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data.role == 'seller' &&
+             firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data.verified == true;
+    }
+    
+    // User avatars
+    match /users/{userId}/avatars/{filename} {
+      allow read: if true;
+      allow write: if isOwner(userId) && 
+                     filename.matches('.*\\.(jpg|jpeg|png|webp)$') &&
+                     request.resource.size < 5 * 1024 * 1024; // 5MB max
+    }
+    
+    // Product images - originals
+    match /products/{productId}/originals/{filename} {
+      allow read: if true;
+      allow write: if isVerifiedSeller() && 
+                     firestore.get(/databases/(default)/documents/products/$(productId)).data.sellerId == request.auth.uid &&
+                     filename.matches('.*\\.(jpg|jpeg|png|webp)$') &&
+                     request.resource.size < 10 * 1024 * 1024; // 10MB max
+    }
+    
+    // Product images - optimized (read-only, managed by Cloud Functions)
+    match /products/{productId}/optimized/{filename} {
+      allow read: if true;
+      allow write: if false; // Only Cloud Functions can write here
+    }
+    
+    // Seller verification documents
+    match /sellers/{sellerId}/documents/{filename} {
+      allow read: if isOwner(sellerId) || isAdmin();
+      allow write: if isOwner(sellerId) && 
+                     filename.matches('.*\\.(jpg|jpeg|png|pdf|webp)$') &&
+                     request.resource.size < 10 * 1024 * 1024; // 10MB max
+    }
+    
+    // General storage limits
+    match /{allPaths=**} {
+      allow read: if false;
+      allow write: if false;
+    }
+  }
+}
