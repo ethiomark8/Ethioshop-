@@ -285,3 +285,28 @@ For issues and questions:
 - Review Firebase Console logs
 - Test with Firebase Emulator Suite
 
+## License
+
+Copyright © 2026 EthioShop. All rights reserved.
+
+## Contributors
+
+- Development Team
+- QA Team
+- Design Team
+
+## Acknowledgments
+
+- Firebase for providing backend services
+- Chapa for payment gateway
+- Google for Material Design
+- Jetpack for Android libraries
+- Open source community
+
+---
+
+**Version**: 1.0.0  
+**Last Updated**: 2026
+**Platform**: Android 5.0+ (API 21+)  
+**Backend**: Firebase (Firestore, Functions, Storage, Auth)  
+**Payment**: Chapa (Ethiopian payment gateway)

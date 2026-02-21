@@ -1,0 +1,29 @@
+package com.ethio.shop.ui
+
+import androidx.fragment.app.testing.launchFragmentInContainer
+import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
+import androidx.test.espresso.matcher.ViewMatchers.withId
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.ethio.shop.R
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class MainActivityTest {
+
+    @Test
+    fun testMainActivityDisplays() {
+        // Test that main activity displays correctly
+        onView(withId(R.id.nav_host_fragment))
+            .check(matches(isDisplayed()))
+    }
+
+    @Test
+    fun testBottomNavigationDisplays() {
+        // Test that bottom navigation is visible
+        onView(withId(R.id.bottom_navigation))
+            .check(matches(isDisplayed()))
+    }
+}
